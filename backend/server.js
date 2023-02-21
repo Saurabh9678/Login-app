@@ -21,7 +21,7 @@ const port = 8080;
 /* Http get response*/
 
 app.get('/', (req,res)=>{
-    res.status(201).json("Hoome get response")
+    res.status(201).json("Home get response")
 })
 
 
